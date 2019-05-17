@@ -1,0 +1,20 @@
+:root {
+    --base: red;
+    --txtColor: white;
+    --spacing: 10px;
+    --blur: 10px;
+    --borderSize: 5px;
+}
+
+body {
+    background-color: var(--base);
+}
+h1 {
+    color: var(--txtColor)
+}
+
+img {
+    border: var(--borderSize) solid var(--txtColor);
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+}
